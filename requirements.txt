@@ -1,0 +1,6 @@
+### pip install -r 0\CSC__03\requirements.txt
+
+pypdf == 3.17.3
+parsel == 1.8.1
+langchain-google-genai == 0.0.5
+shiny == 0.6.0

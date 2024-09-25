@@ -32,7 +32,7 @@ def _8_(_ip_, _op_, _p_):
     def op_rag():
         ip = _0_(_ip_)
         if(ip != None):
-            p = lcgai(google_api_key='AIzaSyC076g-GBMvHsRqzPa_QtxotOoOkxEdZ6s',model="gemini-pro",max_output_tokens=8888)
+            p = lcgai(google_api_key='Your_Key',model="gemini-pro",max_output_tokens=8888)
             op = p.invoke(f'{_ip_.ip_prompt} : {ip}').content.replace("**","")
         if(ip == None):
             op = "ERROR :: Invalid Input"

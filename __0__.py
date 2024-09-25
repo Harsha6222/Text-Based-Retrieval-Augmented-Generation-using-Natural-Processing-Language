@@ -35,7 +35,7 @@ def func__ip():
 
 def func__p(io=' ',prompt=' '):
     _ip_ = io
-    __p__ = lcgai(google_api_key='AIzaSyC076g-GBMvHsRqzPa_QtxotOoOkxEdZ6s',model="gemini-pro",max_output_tokens=8888)
+    __p__ = lcgai(google_api_key='Your_Key',model="gemini-pro",max_output_tokens=8888)
     _op_ = __p__.invoke(f'{prompt} : {_ip_}')
     return _op_
 
